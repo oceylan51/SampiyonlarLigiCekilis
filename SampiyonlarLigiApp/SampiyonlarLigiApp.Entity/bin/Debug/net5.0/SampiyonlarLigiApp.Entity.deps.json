@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SampiyonlarLigiApp.Entity/1.0.0": {
+        "runtime": {
+          "SampiyonlarLigiApp.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SampiyonlarLigiApp.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

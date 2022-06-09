@@ -1,0 +1,12 @@
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\bin\Debug\net5.0\SampiyonlarLigiApp.Entity.deps.json
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\bin\Debug\net5.0\SampiyonlarLigiApp.Entity.dll
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\bin\Debug\net5.0\ref\SampiyonlarLigiApp.Entity.dll
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\bin\Debug\net5.0\SampiyonlarLigiApp.Entity.pdb
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.AssemblyInfoInputs.cache
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.AssemblyInfo.cs
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.dll
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\ref\SampiyonlarLigiApp.Entity.dll
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.pdb
+C:\Users\osman\Desktop\SampiyonlarLigiApp\SampiyonlarLigiApp.Entity\obj\Debug\net5.0\SampiyonlarLigiApp.Entity.csproj.AssemblyReference.cache

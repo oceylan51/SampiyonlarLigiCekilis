@@ -1,0 +1,209 @@
+﻿@model Last32TeamsGroups
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 1</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g1 in Model.last32Group1)
+                {
+                    <tr>
+                        <td>@g1.TeamName</td>
+                        <td>@g1.TeamGoalsFor</td>
+                        <td>@g1.TeamGoalsAgainst</td>
+                        <td>@g1.GoalDifference</td>
+                        <td>@g1.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 2</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g2 in Model.last32Group2)
+                {
+                    <tr>
+                        <td>@g2.TeamName</td>
+                        <td>@g2.TeamGoalsFor</td>
+                        <td>@g2.TeamGoalsAgainst</td>
+                        <td>@g2.GoalDifference</td>
+                        <td>@g2.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 3</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g3 in Model.last32Group3)
+                {
+                    <tr>
+                        <td>@g3.TeamName</td>
+                        <td>@g3.TeamGoalsFor</td>
+                        <td>@g3.TeamGoalsAgainst</td>
+                        <td>@g3.GoalDifference</td>
+                        <td>@g3.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 4</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g4 in Model.last32Group4)
+                {
+                    <tr>
+                        <td>@g4.TeamName</td>
+                        <td>@g4.TeamGoalsFor</td>
+                        <td>@g4.TeamGoalsAgainst</td>
+                        <td>@g4.GoalDifference</td>
+                        <td>@g4.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 5</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g5 in Model.last32Group5)
+                {
+                    <tr>
+                        <td>@g5.TeamName</td>
+                        <td>@g5.TeamGoalsFor</td>
+                        <td>@g5.TeamGoalsAgainst</td>
+                        <td>@g5.GoalDifference</td>
+                        <td>@g5.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 6</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g6 in Model.last32Group6)
+                {
+                    <tr>
+                        <td>@g6.TeamName</td>
+                        <td>@g6.TeamGoalsFor</td>
+                        <td>@g6.TeamGoalsAgainst</td>
+                        <td>@g6.GoalDifference</td>
+                        <td>@g6.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 7</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g7 in Model.last32Group7)
+                {
+                    <tr>
+                        <td>@g7.TeamName</td>
+                        <td>@g7.TeamGoalsFor</td>
+                        <td>@g7.TeamGoalsAgainst</td>
+                        <td>@g7.GoalDifference</td>
+                        <td>@g7.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark w-100">
+                <tr class="table-danger text-center">
+                    <td class="text-primary font-weight-bold" colspan="5">Group 8</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Name</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Points</td>
+                </tr>
+                @foreach (var g8 in Model.last32Group8)
+                {
+                    <tr>
+                        <td>@g8.TeamName</td>
+                        <td>@g8.TeamGoalsFor</td>
+                        <td>@g8.TeamGoalsAgainst</td>
+                        <td>@g8.GoalDifference</td>
+                        <td>@g8.TeamPoints</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <a class="w-100 btn btn-sm btn-secondary mb-5" asp-controller="Home" asp-action="Fixture">Go To Fixture</a>
+        </div>
+    </div>
+</div>

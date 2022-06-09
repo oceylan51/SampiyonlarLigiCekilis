@@ -1,0 +1,74 @@
+﻿@model GroupsModel
+
+
+
+<h6 class="display-4">Groups List</h6>
+<hr />
+
+<div class="row">
+    <div class="col-md-3">
+        <h5 style="color:red;" class="ms-5">1. Sack</h5>
+        <table class="table table-sm table-dark">
+            <tr>
+                <td>Team Name</td>
+                <td>Team Country</td>
+            </tr>
+            @foreach (var g1 in Model.Group1s)
+            {
+                <tr>
+                    <td>  @g1.TeamName   </td>
+                    <td>  @g1.TemaCountry</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="col-md-3">
+        <h5 style="color:red;" class="ms-5">2. Sack</h5>
+        <table class="table table-sm table-dark">
+            <tr>
+                <td>Team Name</td>
+                <td>Team Country</td>
+            </tr>
+            @foreach (var g2 in Model.Group2s)
+            {
+                <tr>
+                    <td>  @g2.TeamName   </td>
+                    <td>  @g2.TemaCountry</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="col-md-3">
+        <h5 style="color:red;" class="ms-5">3. Sack</h5>
+        <table class="table table-sm table-dark">
+            <tr>
+                <td>Team Name</td>
+                <td>Team Country</td>
+            </tr>
+            @foreach (var g3 in Model.Group3s)
+            {
+                <tr>
+                    <td>  @g3.TeamName   </td>
+                    <td>  @g3.TemaCountry</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="col-md-3">
+        <h5 style="color:red;" class="ms-5">4. Sack</h5>
+        <table class="table table-sm table-dark">
+            <tr>
+                <td>Team Name</td>
+                <td>Team Country</td>
+            </tr>
+            @foreach (var g4 in Model.Group4s)
+            {
+                <tr>
+                    <td>  @g4.TeamName   </td>
+                    <td>  @g4.TemaCountry</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<a asp-controller="Home" asp-action="GroupsList" class="btn btn-sm btn-primary">Draw</a>

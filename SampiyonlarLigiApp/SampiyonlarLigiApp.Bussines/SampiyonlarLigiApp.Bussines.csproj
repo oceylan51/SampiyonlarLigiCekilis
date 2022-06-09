@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampiyonlarLigiApp.Data\SampiyonlarLigiApp.Data.csproj" />
+    <ProjectReference Include="..\SampiyonlarLigiApp.Entity\SampiyonlarLigiApp.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

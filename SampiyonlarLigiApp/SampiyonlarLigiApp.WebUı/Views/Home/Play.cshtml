@@ -1,0 +1,466 @@
+﻿@model List<Fixture>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 1)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 1)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 2)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 2)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 3)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 3)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 4)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 4)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 5)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 5)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 6)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 6)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 7)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 7)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    if (item.GroupNumber == 8)
+                    {
+                        <tr>
+                            <td>@item.Team1Name</td>
+                            <td>@item.Team1GF</td>
+                            <td>@item.Team2Gf</td>
+                            <td>@item.Team2Name</td>
+                            <td>@item.Result</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm table-dark">
+                <tr class="table-danger">
+                    <td class="table-info text-center text-danger font-weight-bold" colspan="5">Grup7 Fixture</td>
+                </tr>
+                <tr class="table-danger text-info font-weight-bold">
+                    <td>Team1</td>
+                    <td>Goals For</td>
+                    <td>Goals Against</td>
+                    <td>Team2</td>
+                    <td>Result</td>
+                </tr>
+                @foreach (var item in ViewBag.Teams)
+                {
+                    if (item.GroupNumber == 8)
+                    {
+                        <tr>
+                            <td>@item.TeamName</td>
+                            <td>@item.TeamGoalsFor</td>
+                            <td>@item.TeamGoalsAgainst</td>
+                            <td>@item.GoalDifference</td>
+                            <td>@item.TeamPoints</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>
